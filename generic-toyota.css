@@ -28,6 +28,11 @@ font-style: normal; }
 font-family: "ToyotaType-Regular", sans-serif
 }
 
+.acs-bold {
+font-family: var(--bold-font);   
+font-weight: 900;
+}
+
 
 /* Variables */
 .acs-wrapper {
@@ -41,6 +46,7 @@ font-family: "ToyotaType-Regular", sans-serif
 --gray2: #f3f3f3;
 --dark: #252525; 
 --dark2: #333333;
+--bold-font: "ToyotaType-Bold", sans-serif;
 }
 
 
