@@ -133,11 +133,21 @@ text-decoration: underline;
 color: var(--accent);
 font-weight: 700;
 font-family: "ToyotaType-Bold", sans-serif;
+transition: all 0.2s ease-in-out 0s;
 }
 .acs-link-accent:hover {
 color: var(--accent4) !important; 
 }
-
+.acs-link-accent2 {
+text-decoration: underline;
+color: var(--white);
+font-weight: 700;
+font-family: "ToyotaType-Bold", sans-serif;
+transition: all 0.2s ease-in-out 0s;
+}
+.acs-link-accent:hover {
+opacity: .6
+}
 
 
 /* BUTTONS: START */
