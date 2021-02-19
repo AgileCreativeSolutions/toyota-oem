@@ -130,9 +130,7 @@ background-color: var(--dark3)
 /* Link Accent */
 .acs-link-accent {
 text-decoration: underline;
-color: var(--accent);
-font-weight: 700;
-font-family: "ToyotaType-Bold", sans-serif;
+color: var(--accent) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .acs-link-accent:hover {
@@ -140,9 +138,7 @@ color: var(--accent4) !important;
 }
 .acs-link-accent2 {
 text-decoration: underline;
-color: var(--white);
-font-weight: 700;
-font-family: "ToyotaType-Bold", sans-serif;
+color: var(--white) !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .acs-link-accent2:hover {
