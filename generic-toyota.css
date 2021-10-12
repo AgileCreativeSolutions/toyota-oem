@@ -105,12 +105,6 @@ background-color: var(--accent3)
 .acs-bg-accent4 {
 background-color: var(--accent4)
 }
-.acs-bg-black {
-background-color: var(--black)
-}
-.acs-bg-white {
-background-color: var(--white)
-}
 .acs-bg-gray {
 background-color: var(--gray)
 }
