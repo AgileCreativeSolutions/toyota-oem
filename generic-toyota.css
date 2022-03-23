@@ -1,27 +1,43 @@
 /* Font */
 @font-face {
+font-display: swap;
+font-family: "ToyotaType-Light";
+font-style: normal;
+font-weight: 100;
+src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Light/ToyotaType-Light.woff2") format("woff2"), url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Light/ToyotaType-Light.woff") format("woff")
+}
+
+@font-face {
+font-display: swap;
 font-family: "ToyotaType-Book";
-src: url("https://www.toyota.com/tcom/fonts/ToyotaType-Book/ToyotaType-Book.woff2") format("woff2");
+font-style: normal;
 font-weight: 300;
-font-style: normal; }
+src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Book/ToyotaType-Book.woff2") format("woff2"), url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Book/ToyotaType-Book.woff") format("woff")
+}
 
 @font-face {
+font-display: swap;
 font-family: "ToyotaType-Regular";
-src: url("https://www.toyota.com/tcom/fonts/ToyotaType-Regular/ToyotaType-Regular.woff2") format("woff2");
+font-style: normal;
 font-weight: 400;
-font-style: normal; }
+src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Regular/ToyotaType-Regular.woff2") format("woff2"), url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Regular/ToyotaType-Regular.woff") format("woff")
+}
 
 @font-face {
+font-display: swap;
 font-family: "ToyotaType-Semibold";
-src: url("https://www.toyota.com/tcom/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff2") format("woff2");
+font-style: normal;
 font-weight: 500;
-font-style: normal; }
+src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff2") format("woff2"), url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff") format("woff")
+}
 
 @font-face {
+font-display: swap;
 font-family: "ToyotaType-Bold";
-src: url("https://www.toyota.com/tcom/fonts/ToyotaType-Bold/ToyotaType-Bold.woff2") format("woff2");
+font-style: normal;
 font-weight: 700;
-font-style: normal; }
+src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Bold/ToyotaType-Bold.woff2") format("woff2"), url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Bold/ToyotaType-Bold.woff") format("woff")
+}
 
 
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
@@ -83,12 +99,13 @@ font-size: 1.2rem !important;
 
 
 .acs-wrapper { 
-font-family: "ToyotaType-Regular", sans-serif
+font-family: "ToyotaType-Regular", sans-serif;
+font-weight: 400;
 }
 
 .acs-bold {
 font-family: var(--bold-font);   
-font-weight: 900;
+font-weight: 700;
 }
 
 
