@@ -558,7 +558,7 @@ transform-style: preserve-3d;
 }
 .acs-button6:hover {
 background-color: var(--gray3);
-color: var(--white) !important;
+color: var(--black) !important;
 }
 
 /* Button 7 */
