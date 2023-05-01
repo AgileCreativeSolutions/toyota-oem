@@ -43,7 +43,7 @@ src: url("https://agilecreativesolutions.github.io/ToyotaBrandFont/ToyotaType-Bo
 
 
 /* OEM Font */
-.acs-wrapper { 
+.acs-wrapper, .acs-oem-brand { 
 font-family: "ToyotaType-Regular", sans-serif;
 font-weight: 400;
 }
@@ -142,7 +142,7 @@ font-weight: 700;
 
 
 /* Variables */
-.acs-wrapper {
+.acs-wrapper, .acs-oem-brand {
 --accent: #CC0001;
 --accent2: #EB0A1E;
 --accent3: #EDF0F5;
@@ -424,7 +424,7 @@ background-color: var(--accent);
 border-radius: 25px;
 display: inline-block;
 text-align: center;
-color: var(--white);
+color: var(--white) !important;
 border: solid 3px var(--accent);
 text-decoration: none !important;
 padding: 16px;
@@ -437,7 +437,7 @@ transition: all 0.2s ease-in-out 0s;
 }
 .acs-button:hover {
 background-color: var(--accent4);
-color: var(--white);
+color: var(--white) !important;
 border: solid 3px var(--accent4)
 }
 
@@ -447,7 +447,7 @@ background-color: transparent;
 border-radius: 25px;
 display: inline-block;
 text-align: center;
-color: var(--black);
+color: var(--black) !important;
 border: solid 3px var(--black);
 text-decoration: none !important;
 padding: 16px;
@@ -460,7 +460,7 @@ transition: all 0.2s ease-in-out 0s;
 }
 .acs-button2:hover {
 background-color: var(--gray2);
-color: var(--dark3);
+color: var(--dark3) !important;
 border: solid 3px var(--dark3);
 }
 
@@ -470,7 +470,7 @@ background-color: transparent;
 border-radius: 25px;
 display: inline-block;
 text-align: center;
-color: var(--white);
+color: var(--white) !important;
 border: solid 3px var(--white);
 text-decoration: none !important;
 padding: 16px;
@@ -483,7 +483,7 @@ transition: all 0.2s ease-in-out 0s;
 }
 .acs-button3:hover {
 background-color: var(--gray2);
-color: var(--black);
+color: var(--black) !important;
 border: solid 3px var(--gray2);
 }
 
@@ -493,7 +493,7 @@ background-color: transparent;
 border-radius: 25px;
 display: inline-block;
 text-align: center;
-color: var(--accent);
+color: var(--accent) !important;
 border: solid 3px var(--accent);
 text-decoration: none !important;
 padding: 16px;
@@ -506,7 +506,7 @@ transition: all 0.2s ease-in-out 0s;
 }
 .acs-button4:hover {
 background-color: var(--accent);
-color: var(--white)
+color: var(--white) !important
 }
 
 /* Button 5 */
